@@ -1,0 +1,589 @@
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>乐园的排队优化</title>
+        <!-- MDB icon -->
+        <link rel="icon" href="./img/游乐场.ico" type="image/x-icon">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Material Design Bootstrap -->
+        <link rel="stylesheet" href="css/mdb.min.css">
+        <!-- Your custom styles (optional) -->
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+
+    <body>
+        <!-- start your project here -->
+        <!--Main Navigation-->
+        <header>
+            <!--导航条-->
+            <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+                <div class="container">
+
+                    <!-- Navbar brand -->
+                    <a class="navbar-brand" href="#"><i class="fas fa-parking fa-1x gray-text"></i></a>
+
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+                        aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+                        <!-- Links -->
+                        <ul class="navbar-nav mr-auto smooth-scroll">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#intro">Welcome</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#best-features">项目查询</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#examples">路线规划</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">电子地图</a>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+                    </div>
+                    <!-- Collapsible content -->
+
+                </div>
+
+            </nav>
+            <!--/.导航条结束-->
+            <!--背景图与首页-->
+            <div id="intro" class="view">
+
+                <div class="mask rgba-black-strong">
+                    <!-- 添加了.container-fluid 容器以利用栅格进行布局 -->
+                    <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                        <!-- 新添加的 div, 表示栅格中的行 -->
+                        <div class="row d-flex justify-content-center text-center">
+                            <!-- 新添加的 div, 表示栅格中的列 -->
+                            <div class="col-md-10">
+                                <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">游乐场排队系统</h2>
+
+                                <!-- Divider -->
+                                <hr class="hr-light">
+
+                                <!-- Description -->
+                                <h4 class="white-text my-4">在这里你会感受到从未有的便捷。时间，效率是我们的承诺.来试试吧。</h4>
+                                <button type="button" class="btn btn-outline-white">更多相关<i
+                                        class="fas fa-address-card ml-2"></i></button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!--/.背景图与首页结束k-->
+
+        </header>
+        <!--Main Navigation-->
+
+        <!--Main layout-->
+        <main>
+            <!--Main layout-->
+            <main class="mt-5">
+                <div class="container">
+
+                    <!--Section: Best Features-->
+                    <section id="best-features">
+                        <!--Section: Best Features-->
+                        <section id="best-features" class="text-center">
+
+                            <!-- Heading -->
+                            <h2 class="mb-5 font-weight-bold">项目查询</h2>
+
+                            <!--Grid row-->
+                            <div class="row d-flex justify-content-center mb-4">
+
+                                <!--Grid column-->
+                                <div class="col-md-8">
+
+                                    <!-- Description -->
+                                    <p>在这里你可以输入你想要查询的项目，我们将提供给你：等待人数，预计等待时长</p>
+
+                                </div>
+                                <!--Grid column-->
+
+                            </div>
+                            <!--Grid row-->
+
+                            <!--Grid row-->
+                            <div class="row">
+
+                                <!--Grid column-->
+                                <div class="col-md-4 mb-1">
+                                    <i class="fas fa-walking fa-4x orange-text"></i>
+                                    <h4 class="my-4">等待人数</h4>
+                                    <p>10人正在排队</p>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-4 mb-1">
+                                    <i class="fas fa-clock fa-4x orange-text"></i>
+                                    <h4 class="my-4">预计等待时长</h4>
+                                    <p>预估20min</p>
+                                </div>
+                                <!--Grid column-->
+
+                                <!--Grid column-->
+                                <div class="col-md-4 mb-1">
+                                    <i class="fas fa-road fa-4x orange-text"></i>
+                                    <h4 class="my-4">所需路程</h4>
+                                    <p>距离当前位置路程为200m</p>
+                                </div>
+                                <!--Grid column-->
+                            </div>
+                            <!--Grid row-->
+                        </section>
+                        <!--Section: Best Features-->
+                    </section>
+                    <!--Section: Best Features-->
+
+                    <hr class="my-5">
+
+                    <!--Section: Examples-->
+                    <section id="examples" class="text-center">
+
+                        <!-- heading -->
+                        <h2 class="mb-5 font-weight-bold">路线规划</h2>
+                        <p class="example-1">这里选择你喜欢的项目，可以生成最优的路线哦
+                        </p>
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-4">
+
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://mdbootstrap.com/img/Photos/Others/images/48.jpg"
+                                        class="img-fluid">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <h4 class="my-4 font-weight-bold">摩天轮</h4>
+                                <button type="button" class="btn btn-primary">想玩</button>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://mdbootstrap.com/img/Photos/Others/images/49.jpg"
+                                        class="img-fluid">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <h4 class="my-4 font-weight-bold">过山车</h4>
+                                <button type="button" class="btn btn-primary">想玩</button>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://mdbootstrap.com/img/Photos/Others/images/50.jpg"
+                                        class="img-fluid">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <h4 class="my-4 font-weight-bold">旋转木马</h4>
+                                <button type="button" class="btn btn-primary">想玩</button>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-12 mb-4">
+
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://mdbootstrap.com/img/Photos/Others/images/51.jpg"
+                                        class="img-fluid">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <h4 class="my-4 font-weight-bold">大摆锤</h4>
+                                <button type="button" class="btn btn-primary">想玩</button>
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://mdbootstrap.com/img/Photos/Others/images/52.jpg"
+                                        class="img-fluid">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <h4 class="my-4 font-weight-bold">海盗船</h4>
+                                <button type="button" class="btn btn-primary">想玩</button>
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-lg-4 col-md-6 mb-4">
+
+                                <div class="view overlay z-depth-1-half">
+                                    <img src="https://mdbootstrap.com/img/Photos/Others/images/53.jpg"
+                                        class="img-fluid">
+                                    <a href="#!">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <h4 class="my-4 font-weight-bold">激流勇进</h4>
+                                <button type="button" class="btn btn-primary">想玩</button>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                    </section>
+                    <!--Section: Examples-->
+                    <hr class="my-5">
+
+                    <!--Section: Gallery-->
+                    <section id="gallery">
+
+                        <!-- Heading -->
+                        <h2 class="mb-5 font-weight-bold text-center">项目推荐</h2>
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6 mb-4">
+
+                                <!--Carousel Wrapper-->
+                                <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+                                    <!--Indicators-->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                                    </ol>
+                                    <!--/.Indicators-->
+                                    <!--Slides-->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <div class="view">
+                                                <img class="d-block w-100"
+                                                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                                                    alt="First slide">
+                                                <div class="mask rgba-black-light"></div>
+                                            </div>
+                                            <div class="carousel-caption">
+                                                <h3 class="h3-responsive">过山车</h3>
+                                                <p>好玩儿</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <!--Mask color-->
+                                            <div class="view">
+                                                <img class="d-block w-100"
+                                                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+                                                    alt="Second slide">
+                                                <div class="mask rgba-black-strong"></div>
+                                            </div>
+                                            <div class="carousel-caption">
+                                                <h3 class="h3-responsive">旋转木马</h3>
+                                                <p>太好玩了</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <!--Mask color-->
+                                            <div class="view">
+                                                <img class="d-block w-100"
+                                                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+                                                    alt="Third slide">
+                                                <div class="mask rgba-black-slight"></div>
+                                            </div>
+                                            <div class="carousel-caption">
+                                                <h3 class="h3-responsive">激流勇进</h3>
+                                                <p>刺激</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--/.Slides-->
+                                    <!--Controls-->
+                                    <a class="carousel-control-prev" href="#carousel-example-2" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel-example-2" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                    <!--/.Controls-->
+                                </div>
+                                <!--/.Carousel Wrapper-->
+
+                            </div>
+                            <!--Grid column-->
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+
+                                <!--Excerpt-->
+                                <a href="" class="teal-text">
+                                    <h6 class="pb-1"><i class="fas fa-heart"></i><strong> hot</strong></h6>
+                                </a>
+                                <h4 class="mb-3"><strong>热门项目推荐</strong></h4>
+                                <p>这些都是我们最热门的项目可以尝试一下哦.</p>
+
+                                <a class="btn btn-primary btn-md">了解更多</a>
+
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+
+                    </section>
+                    <!--Section: Gallery-->
+
+                    <hr class="my-5">
+
+                    <!--Section: Contact-->
+                    <section id="contact">
+
+                        <!-- Heading -->
+                        <h2 class="mb-5 font-weight-bold text-center">电子地图</h2>
+
+                        <div class="col-lg-12 col-md-12">
+                            <!--Sogou 地图-->
+                            <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px">
+                            </div>
+                        </div>
+                        <!--Grid column-->
+                    </section>
+                    <!--Section: Contact-->
+
+                </div>
+            </main>
+            <!--Main layout-->
+
+        </main>
+        <!--Main layout-->
+
+        <!-- Footer -->
+        <footer class="page-footer unique-color-dark">
+            <!-- Social buttons -->
+            <div class="primary-color">
+                <div class="container">
+                    <!--Grid row-->
+                    <div class="row py-4 d-flex align-items-center">
+
+                        <!--Grid column-->
+                        <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                            <h6 class="mb-0 white-text">Get connected with us on social networks!</h6>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-6 col-lg-7 text-center text-md-right">
+                            <!--Facebook-->
+                            <a class="fb-ic ml-0">
+                                <i class="fab fa-facebook-f white-text mr-4"> </i>
+                            </a>
+                            <!--Twitter-->
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter white-text mr-4"> </i>
+                            </a>
+                            <!--Google +-->
+                            <a class="gplus-ic">
+                                <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                            </a>
+                            <!--Linkedin-->
+                            <a class="li-ic">
+                                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                            </a>
+                            <!--Instagram-->
+                            <a class="ins-ic">
+                                <i class="fab fa-instagram white-text mr-lg-4"> </i>
+                            </a>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+                </div>
+            </div>
+            <!-- Social buttons -->
+
+
+            <!--Footer Links-->
+            <div class="container mt-5 mb-4 text-center text-md-left">
+                <div class="row mt-3">
+
+                    <!--First column-->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Company name</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit.</p>
+                    </div>
+                    <!--/.First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Products</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="#!">MDBootstrap</a>
+                        </p>
+                        <p>
+                            <a href="#!">MDWordPress</a>
+                        </p>
+                        <p>
+                            <a href="#!">BrandFlow</a>
+                        </p>
+                        <p>
+                            <a href="#!">Bootstrap Angular</a>
+                        </p>
+                    </div>
+                    <!--/.Second column-->
+
+                    <!--Third column-->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Useful links</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="#!">Your Account</a>
+                        </p>
+                        <p>
+                            <a href="#!">Become an Affiliate</a>
+                        </p>
+                        <p>
+                            <a href="#!">Shipping Rates</a>
+                        </p>
+                        <p>
+                            <a href="#!">Help</a>
+                        </p>
+                    </div>
+                    <!--/.Third column-->
+
+                    <!--Fourth column-->
+                    <div class="col-md-4 col-lg-3 col-xl-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                            <strong>Contact</strong>
+                        </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fas fa-home  mr-3"></i> New York, NY 10012, US
+                        </p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> info@example.com
+                        </p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> + 01 234 567 88
+                        </p>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> + 01 234 567 89
+                        </p>
+                    </div>
+                    <!--/.Fourth column-->
+
+                </div>
+            </div>
+            <!--/.Footer Links-->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2018 Copyright:
+                <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        <!-- end your project here -->
+        <!-- jQuery -->
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="js/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="js/mdb.min.js"></script>
+
+        <script type="text/javascript" src="//api.map.sogou.com/maps/js/api_v2.5.1.js"></script>
+        <!-- Your custom scripts (optional) -->
+        <script type="text/javascript">
+            // Carousel options
+            $('#carousel-example-2').carousel({
+                interval: 2000, // 间隔时间, 默认5000毫秒, 如果设置为false则不会自动播放
+                pause: false,   // 鼠标移上后是否暂停, 默认暂停
+                wrap: false,    // 是否循环轮播, 默认循环
+            });
+            //-------以下代码是新增的--------//
+            /* 定义函数, 加载指定坐标的地图 */
+            function showMap() {
+                var myLatlng = new sogou.maps.LatLng(29.4902, 106.5714);
+                var myOptions = {
+                    zoom: 13,
+                    center: myLatlng,
+                    mapTypeId: sogou.maps.MapTypeId.ROADMAP
+                };
+                map = new sogou.maps.Map(document.getElementById("map-container"), myOptions);
+                marker = new sogou.maps.Marker({ position: myLatlng, map: map, title: "重庆交通大学" });
+            }
+            // 设置事件侦听器, 当窗口加载时调用 showMap 函数
+            sogou.maps.event.addDomListener(window, 'load', showMap);
+        </script>
+
+
+
+    </body>
+
+</html>
