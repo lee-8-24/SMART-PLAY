@@ -1,0 +1,32 @@
+/* 初步格式设置 */
+body{
+    background-color:powderblue;
+    text-align: center;
+}
+h1{
+    color:cornflowerblue;
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    color:blue;
+    text-align: center;
+}
+h3{
+    color:blue;
+    text-align: center;
+}
+h4{
+    color:chartreuse;
+    text-align: center;
+}
+pre
+{
+    color: deeppink;
+    text-align:justify;
+}
+
+p{
+    color: red;
+    text-align: center;
+}
