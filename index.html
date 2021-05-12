@@ -1,369 +1,1112 @@
-<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html class="no-js" lang="">
 
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>游乐场管理系统</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="./img/游乐场.ico" type="image/x-icon">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Material Design Bootstrap -->
-    <link rel="stylesheet" href="css/mdb.min.css">
-    <!-- Your custom styles (optional) -->
-
-    <style>
-      .zdycolor, .page-footer  {
-    background-color: #563e91 !important;
-}
-    </style>
+    <meta charset="utf-8">
+    <title>公司名称</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/icons/flaticon/flaticon.css">
+    <link rel="stylesheet" href="assets/icons/mti-brands/styles.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
   </head>
 
   <body>
-    <!--Main Navigation-->
-    <header>
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top primary-color">
-        <div class="container">
-          <!-- Navbar brand -->
-          <a class="navbar-brand" href="#">犇犇大创</a>
-          <!-- Collapse button -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
-            aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collapsible content -->
-          <div class="collapse navbar-collapse" id="basicExampleNav">
-            <!-- Links -->
-            <ul class="navbar-nav mr-auto">
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#">投诉与建议</a>
-              </li>
-
-              <!-- Dropdown -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">关于我们</a>
-                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">电话</a>
-                  <a class="dropdown-item" href="#">邮箱</a>
-                  <a class="dropdown-item" href="#">微信公众号</a>
+    <div id="site-overlay"></div>
+    <div class="site-wrapper">
+      <header class="header-style-1 position-absolute d-none d-lg-block">
+        <div class="header-top">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-8">
+                <div class="ht-contact d-flex">
+                  <div class="htc-block">
+                    <i class="flaticon-envelope"></i> 官方邮箱?
+                  </div>
+                  <div class="htc-block">
+                    <i class="flaticon-telephone"></i> 官方电话?
+                  </div>
+                  <div class="htc-block">
+                    <i class="flaticon-maps-and-flags"></i> 重庆市南岸区
+                  </div>
                 </div>
-              </li>
-              <!-- 
-              <li class="nav-item">
-                <a class="nav-link" href="#">关于我们</a>
-              </li> -->
-
-            </ul>
-            <!-- Links -->
-            <form class="form-inline">
-              <div class="md-form my-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
               </div>
-            </form>
-          </div>
-          <!-- Collapsible content -->
-        </div>
-      </nav>
-      <!--/.Navbar-->
-      
-    </header>
-    <!--Main Navigation-->
-
-    <main class="mt-5">
-      <!--Main container-->
-      <div class="container">
-        <!--Grid row 1-->
-        <div class="row">
-          <br><br><br>
-        </div>
-        <div class="row">
-          <!--Grid column 1-->
-          <div class="col-md-7 mb-4">
-            <div class="view overlay z-depth-1-half">
-              <img src="./img/乐园.jpg" class="card-img-top" alt="">
-              <div class="mask rgba-white-light"></div>
+              <div class="col-md-4">
+                <div class="hts-block">
+                  <ul>
+                    <li><a href="#"><i class="mti-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="mti-twitter"></i></a></li>
+                    <li><a href="#"><i class="mti-instagram"></i></a></li>
+                    <li><a href="#"><i class="mti-pinterest-p"></i></a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </div>
-          <!--Grid column-->
-          <!--Grid column 2-->
-          <div class="col-md-5 mb-4">
-            <h2>游乐场排队系统</h2>
-            <hr>
-            <p>我们是一家专注于游乐场排队系统设计的公司。为客户提供数据分析，系统设计，等多维度，全方面的服务。致力于帮助管理人员合理规划、提升游客游玩体验</p>
-            <a href="#!" class="btn btn-primary btn-md">更多相关</a>
-          </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
-        <!--Grid row 2-->
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-12 mb-4">
-
-            <!--Card-->
-            <div class="card">
-
-              <!--Card image-->
-              <div class="view overlay">
-                <img src="./img/数据分析.jpg" class="card-img-top" alt="">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
+        <!-- End header top -->
+        <div class="header-content">
+          <div class="container">
+            <div class="row align-items-center d-flex justify-content-between">
+              <div class="col-lg-2">
+                <div class="header-logo">
+                  <a href="index.html">
+                    <!-- <img src="assets/img/logo-light.png" alt="logo" class="img-fluid"> -->
+                    <p>公司logo?</p>
+                  </a>
+                </div>
               </div>
-
-              <!--Card content-->
-              <div class="card-body">
-                <!--Title-->
-                <h4 class="card-title">面向管理者</h4>
-                <!--Text-->
-                <p class="card-text">我们提供定制数学建模，数据分析，策略建议与规划建议等方面的服务</p>
-                <a href="#!" class="btn btn-primary btn-md">了解更多</a>
+              <div class="col-lg-10">
+                <div class="d-flex align-items-center">
+                  <nav class="header-menu">
+                    <ul class="navigation-menu header-navigation-menu">
+                      <li><a href="index.html">Home</a>
+                        <ul class="submenu-inner">
+                          <li><a href="index.html">Home 1</a></li>
+                          <li><a href="home-2.html">Home 2</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="services.html">Services</a>
+                        <ul class="submenu-inner">
+                          <li><a href="single-service.html">Service Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Pages</a>
+                        <ul class="submenu-inner">
+                          <li><a href="blog.html">Projects</a>
+                            <ul class="submenu-inner">
+                              <li><a href="single-project.html">Projects Details</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="faq.html">FAQ</a></li>
+                          <li><a href="team.html">Team</a></li>
+                          <li><a href="single-team.html">Team Details</a></li>
+                          <li><a href="404.html">404 Page</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="blog.html">Blog</a>
+                        <ul class="submenu-inner">
+                          <li><a href="blog.html">Blog Classic</a></li>
+                          <li><a href="single-blog.html">News Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </nav>
+                  <div class="header-search-btn d-flex justify-content-between">
+                    <div class="search-btn">
+                      <i class="flaticon-magnifiying-glass"></i>
+                    </div>
+                    <div class="menu-button">
+                      <a href="contact.html" class="theme-btn">Free Estimate</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-
             </div>
-            <!--/.Card-->
-
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-
-            <!--Card-->
-            <div class="card">
-
-              <!--Card image-->
-              <div class="view overlay">
-                <img src="./img/乐园3.jpg" class="card-img-top" alt="">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <!--Card content-->
-              <div class="card-body">
-                <!--Title-->
-                <h4 class="card-title">面向游客</h4>
-                <!--Text-->
-                <p class="card-text">我们提供路线规划，项目实时排队人数，预计排队时长等方面服务</p>
-                <a href="./passanger.html" class="btn btn-primary btn-md">功能展示</a>
-              </div>
-
-            </div>
-            <!--/.Card-->
-
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-4 col-md-6 mb-4">
-
-            <!--Card-->
-            <div class="card">
-
-              <!--Card image-->
-              <div class="view overlay">
-                <img src="./img/产品.jpg" class="card-img-top" alt="">
-                <a href="#!">
-                  <div class="mask rgba-white-slight"></div>
-                </a>
-              </div>
-
-              <!--Card content-->
-              <div class="card-body">
-                <!--Title-->
-                <h4 class="card-title">相关产品</h4>
-                <!--Text-->
-                <p class="card-text">针对排队系统，我们设计了实时排队人数统计装置、系统操作界面等相关产品</p>
-                <a href="#!" class="btn btn-primary btn-md">了解更多</a>
-              </div>
-
-            </div>
-            <!--/.Card-->
-
-          </div>
-          <!--Grid column-->
-
         </div>
-        <!--Grid row-->
-      </div>
-      <!--Main container-->
-      <!--Section: contact-->
-      <section id="contact" class="py-5" style="background-color: #eee;">
-
+      </header>
+      <header class="mobile-header d-block d-lg-none">
         <div class="container">
+          <div class="row align-items-center">
+            <div class="col-sm-2 col-3">
+              <div class="canvas-menu menu-offcanvas">
+                <a id="mobile-header-expander" class="dropdown-toggle" data-canvas=".mobile">
+                  <span class="hamburger-menu">
+                    <span class="hamburger-menu-line hamburger-menu-line-1"></span>
+                    <span class="hamburger-menu-line hamburger-menu-line-2"></span>
+                    <span class="hamburger-menu-line hamburger-menu-line-3"></span>
+                    <span class="hamburger-menu-line hamburger-menu-line-4"></span>
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-8 col-6">
+              <div class="header-mobile-logo">
+                <a href="index.html"><img src="assets/img/logo-dark.png" alt="logo" class="img-fluid"></a>
+              </div>
+            </div>
+            <div class="col-sm-2 col-3">
+              <div class="header-search-btn search-btn-popup">
+                <div class="search-btn search-btn-dark">
+                  <i class="flaticon-magnifiying-glass"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="full-bar-search-wrap">
+        <div class="close-search"></div>
+        <div class="search-form-wrapper">
+          <form method="get" class="search-form" action="#">
+            <div class="search-form-group"> <input name="s" type="text" class="form-control" value=""
+                placeholder="Search here..."></div>
+            <button type="submit" class="search-submit"><i class="flaticon-magnifiying-glass"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="offcanvas-content mobile">
+        <div class="close-canvas"><a><i class="flaticon-cancel"></i></a></div>
+        <div class="wp-sidebar sidebar">
+          <div id="mobile-menu" class="navbar-collapse">
+            <ul class="header-navigation-menu mobile-menu">
+              <li><a href="index.html">Home</a>
+                <ul class="submenu-inner">
+                  <li><a href="index.html">Home 1</a></li>
+                  <li><a href="home-2.html">Home 2</a></li>
+                </ul>
+              </li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a>
+                <ul class="submenu-inner">
+                  <li><a href="single-service.html">Service Details</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Pages</a>
+                <ul class="submenu-inner">
+                  <li><a href="blog.html">Projects</a>
+                    <ul class="submenu-inner">
+                      <li><a href="single-project.html">Projects Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="single-team.html">Team Details</a></li>
+                  <li><a href="404.html">404 Page</a></li>
+                </ul>
+              </li>
+              <li><a href="blog.html">Blog</a>
+                <ul class="submenu-inner">
+                  <li><a href="blog.html">Blog Classic</a></li>
+                  <li><a href="single-blog.html">News Details</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="slider-widget">
+        <div class="container-full">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="slider-one swiper-container">
+                <div class="swiper-wrapper">
+                  <div class="slider-one-slide swiper-slide">
+                    <div class="slide-bg" data-background="assets/img/slide-1.jpg"></div>
+                    <div class="slider-wrapper">
+                      <div class="slider-content">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12 col-lg-10 ml-auto mr-auto">
+                              <h2 class="slide-intro"> <span class="">欢迎来到游玩排队服务</span></h2>
+                              <h2 class="slide-heading">
+                                极致游玩体验</h2>
+                              <div class="slider-button">
+                                <a href="#" class="slide-btn theme-btn">发现更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-one-slide swiper-slide">
+                    <div class="slide-bg" data-background="assets/img/slide-2.png"></div>
+                    <div class="slider-wrapper">
+                      <div class="slider-content">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-12 col-lg-10 ml-auto mr-auto">
+                              <h2 class="slide-intro"> <span class="">欢迎来到游玩排队服务</span></h2>
+                              <h2 class="slide-heading">完备数据服务</h2>
+                              <div class="slider-button">
+                                <a href="#" class="slide-btn theme-btn">发现更多</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="welcome-widget">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <span class="welcome-intro">(公司名称)</span>
+              <h2 class="welcome-heading">我们提供的服务</h2>
+            </div>
+            <div class="col-md-6">
+              <div class="welcome-desc">我们将会面向游乐场或者景区的管理人员提供数据可视化平台、数据分析等服务；
+                面向广大游客提供可视化地图导游、排队信息查询、路线查询与导航、整体最优推荐等功能；此外我们还会推出
+                排队文化布置等相关业务、推出适用于景区及游乐场的人数统计装置
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-            <!-- Section heading -->
-            <h2 class="h1-responsive font-weight-bold text-center mb-5">联系我们</h2>
-            <!-- Section description -->
 
-            <!-- Grid row -->
+      <!-- 第二部分 -->
+      <div class="services-section data-background" data-background="assets/img/service-bg.jpg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-3">
+              <div class="service-widget">
+                <span class="sw-count">01</span>
+                <div class="sw-icon"><i class="flaticon-data"></i></div>
+                <h3 class="sw-title">可视化<br>
+                  数据平台
+                </h3>
+                <div class="sw-content">方便管理者查阅排队相关信息、当前游客人数等方面信息
+                </div>
+                <a href="#" class="btn-grey">More</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="service-widget">
+                <span class="sw-count">02</span>
+                <div class="sw-icon"><i class="flaticon-bullhorn"></i></div>
+                <h3 class="sw-title">可视化 <br>
+                  地图导游</h3>
+                <div class="sw-content">方便游客查看当前项目排队信息、进行交互式路线规划等</div>
+                <a href="#" class="btn-grey">MORE</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="service-widget">
+                <span class="sw-count">03</span>
+                <div class="sw-icon"><i class="flaticon-app-development"></i></div>
+                <h3 class="sw-title">排队<br>
+                  文化布置</h3>
+                <div class="sw-content">为了提升游客的排队体验，我们还提供游玩排队文化布置</div>
+                <a href="#" class="btn-grey">MORE</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="service-widget">
+                <span class="sw-count">04</span>
+                <div class="sw-icon"><i class="flaticon-seo-1"></i></div>
+                <h3 class="sw-title">相关<br>设备</h3>
+                <div class="sw-content">提供景区及游乐场：人数统计装置，定点查询PC机等设备</div>
+                <a href="#" class="btn-grey">MORE</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-widget">
+        <div class="about-shape-1">
+          <img src="assets/img/lines.png" alt="" class="img-fluid">
+        </div>
+        <div class="about-shape-2">
+          <img src="assets/img/dots.png" alt="" class="img-fluid">
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7">
+              <div class="about-image-box">
+                <div class="about-img-1">
+                  <!-- 这里应该放一张顾客或者管理员的图 -->
+                  <img src="assets/img/about-1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="about-img-2">
+                  <img src="assets/img/about-2.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="about-focus">
+                  <div class="foucs-icon">
+                    <i class="flaticon-user-experience-1"></i>
+                  </div>
+                  <div class="ex-year"><span class="count-number">20</span>+</div>
+                  <div class="ex-title">合作伙伴</div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="about-content rellax" data-rellax-speed="4" data-rellax-percentage="0.5">
+                <span class="section-intro">受众人群</span>
+                <h2 class="section-title">我们的客户群体介绍</h2>
+                <div class="about-info">
+                  我们的产品的使用者包含了游乐场及景区的管理人员、广大游客等，涵盖各个年龄段
+                  不同阶层的有游玩需要的人。
+                </div>
+                <div class="about-features mt-50">
+                  <div class="row">
+                    <div class="col-md-6 mb-xs-30">
+                      <div class="d-flex align-items-center">
+                        <div class="af-icon">
+                          <i class="flaticon-analyst"></i>
+                        </div>
+                        <div class="af-title">
+                          广泛的<br>
+                          客户群体
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="d-flex align-items-center">
+                        <div class="af-icon">
+                          <i class="flaticon-jigsaw"></i>
+                        </div>
+                        <div class="af-title">
+                          多样的<br>
+                          合作模式
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-md-flex mt-50">
+                  <a href="#" class="theme-btn mb-xs-30 ml-xs-20">了解更多</a>
+                  <div class="d-flex align-items-center call-btn-block ml-20">
+                    <div class="phone-icon">
+                      <i class="flaticon-telephone"></i>
+                    </div>
+                    <div class="phone-details">
+                      <span class="phone-title">联系我们</span>
+                      <a href="" class="phone-bumber">92 888 666 0000</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio-section">
+        <div class="portfolio-header" data-background="assets/img/portfolio-header.jpg">
+          <div class="container">
             <div class="row">
+              <div class="col-lg-6">
+                <!-- <div class="video-box mb-60">
+                <a href="https://www.youtube.com/watch?v=7OaLbST0SiI" class="video-button mfp-iframe">
+                  <i class="flaticon-play-button"></i>
+                </a>
+              </div> -->
+                <div class="clear-fix"></div>
+                <span class="section-intro">最近产品</span>
+                <h2 class="section-title white-text">我们只提供优质的服务
+                </h2>
+              </div>
+              <div class="col-lg-5 offset-lg-1">
+                <div class="portfolio-header-details dark-text mb-60">
+                  数据可视化服务，我们提供了精美清晰的可视化平台<br>
+                  地图交互服务，我们提供了信息查询与交互式的操作
+                </div>
+                <div class="portfolio-header-deatures">
+                  <div class="d-sm-flex">
+                    <div class="ph-icon">
+                      <i class="flaticon-idea"></i>
+                    </div>
+                    <div class="ph-content">
+                      <h4 class="ph-title">极具创意的设计</h4>
+                      <div class="ph-details">每个功能简单清晰实用，为客户带来极大的便利</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-carousel-block">
+          <div class="portfolio-carousel swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="portfolio-item">
+                  <img src="assets/img/show_1.png" alt="" class="img-fluid">
+                  <a href="single-project.html" class="portfolio-more"><i class="flaticon-right-arrow-angle"></i></a>
+                  <div class="portfolio-item-overlay">
+                    <div class="portfolio-block-category">
+                      <a href="#">设计</a>
+                    </div>
+                    <h3 class="portfolio-block-title">数据大屏</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="portfolio-item">
+                  <img src="assets/img/show_2.png" alt="" class="img-fluid">
+                  <a href="single-project.html" class="portfolio-more"><i class="flaticon-right-arrow-angle"></i></a>
+                  <div class="portfolio-item-overlay">
+                    <div class="portfolio-block-category">
+                      <a href="#">设计</a>
+                    </div>
+                    <h3 class="portfolio-block-title">可视化信息</h3>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-3.jpg" alt="" class="img-fluid">
+                <a href="single-project.html" class="portfolio-more"><i class="flaticon-right-arrow-angle"></i></a>
+                <div class="portfolio-item-overlay">
+                  <div class="portfolio-block-category">
+                    <a href="#">Data</a>
+                  </div>
+                  <h3 class="portfolio-block-title">Sell data</h3>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-4.jpg" alt="" class="img-fluid">
+                <a href="single-project.html" class="portfolio-more"><i class="flaticon-right-arrow-angle"></i></a>
+                <div class="portfolio-item-overlay">
+                  <div class="portfolio-block-category">
+                    <a href="#">Writing</a>
+                  </div>
+                  <h3 class="portfolio-block-title">Content writing</h3>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="portfolio-item">
+                <img src="assets/img/portfolio-5.jpg" alt="" class="img-fluid">
+                <a href="single-project.html" class="portfolio-more"><i class="flaticon-right-arrow-angle"></i></a>
+                <div class="portfolio-item-overlay">
+                  <div class="portfolio-block-category">
+                    <a href="#">App</a>
+                  </div>
+                  <h3 class="portfolio-block-title">App Development</h3>
+                </div>
+              </div>
+            </div>
+          </div> -->
+              <div class="portfolio-carousel-footer">
 
-                <!-- Grid column -->
-                <div class="col-md-9 mb-md-0 mb-5">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="all-works">
+                    <a href="#" class="btn-underline">View All Work</a>
+                  </div>
+                  <div class="pc-pagination">
+                    <div class="portfolio-pagination"></div>
+                  </div>
 
-                    <form>
-
-                        <!-- Grid row -->
-                        <div class="row">
-
-                            <!-- Grid column -->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="contact-name" class="form-control">
-                                    <label for="contact-name" class="">你的名字</label>
-                                </div>
-                            </div>
-                            <!-- Grid column -->
-
-                            <!-- Grid column -->
-                            <div class="col-md-6">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="contact-email" class="form-control">
-                                    <label for="contact-email" class="">你的邮箱</label>
-                                </div>
-                            </div>
-                            <!-- Grid column -->
-
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-choose-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-5">
+                <span class="section-intro">选择我们的理由</span>
+                <h2 class="section-title">我们将为
+                  用户提供多方位的复合物</h2>
+                <div class="why-choose-features mb-60">
+                  <h3 class="hc-features">管理员省时省力</h3>
+                  <p>不再需要经常跑动维护设备，可视化设备状态、项目热度一看便知、投诉建议轻松知晓</p>
+                </div>
+                <div class="why-choose-features">
+                  <h3 class="hc-features">游客方便便捷</h3>
+                  <p>不用担心游玩过程中的路线难以规划、下一个项目选择困难、排队信息不透明等问题</p>
+                </div>
+              </div>
+              <div class="col-lg-6 offset-lg-1">
+                <div class="why-chhose-image">
+                  <img src="assets/img/why-choose.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fun-facts-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="fun-facts-inner">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <div class="counter-block">
+                        <div class="counter-icon">
+                          <i class="flaticon-analytics"></i>
                         </div>
-                        <!-- Grid row -->
-
-                        <!-- Grid row -->
-                        <div class="row">
-
-                            <!-- Grid column -->
-                            <div class="col-md-12">
-                                <div class="md-form mb-0">
-                                    <input type="text" id="contact-Subject" class="form-control">
-                                    <label for="contact-Subject" class="">联络目的</label>
-                                </div>
-                            </div>
-                            <!-- Grid column -->
-
+                        <div class="counter-number"><span class="number-to-count">5</span></div>
+                        <div class="counter-title">完成的项目</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="counter-block">
+                        <div class="counter-icon">
+                          <i class="flaticon-networking"></i>
                         </div>
-                        <!-- Grid row -->
-
-                        <!-- Grid row -->
-                        <div class="row">
-
-                            <!-- Grid column -->
-                            <div class="col-md-12">
-                                <div class="md-form">
-                                    <textarea type="text" id="contact-message" class="form-control md-textarea"
-                                        rows="2"></textarea>
-                                    <label for="contact-message">有什么想对我们说的吗</label>
-                                </div>
-                            </div>
-                            <!-- Grid column -->
-
+                        <div class="counter-number"><span class="number-to-count">11</span></div>
+                        <div class="counter-title">团队成员</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="counter-block">
+                        <div class="counter-icon">
+                          <i class="flaticon-support"></i>
                         </div>
-                        <!-- Grid row -->
+                        <div class="counter-number"><span class="number-to-count">6</span></div>
+                        <div class="counter-title">提供服务</div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="counter-block counter-last">
+                        <div class="counter-icon">
+                          <i class="flaticon-satisfaction"></i>
+                        </div>
+                        <div class="counter-number"><span class="number-to-count">67</span></div>
+                        <div class="counter-title">感兴趣的朋友</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="trust-section" data-background="assets/img/trust-bg.jpg" data-jarallax data-speed="0.2">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+                <h2 class="white-text section-title">我们将满足你近乎所有的游玩需求</h2>
+                <div class="trust-button">
+                  <a href="#" class="theme-btn">发现更多</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="why-chhose-2" data-background="assets/img/why-choose-bg.jpg">
+      <div class="horizontal-dots slide-top">
+        <img src="assets/img/dots-horizontal.png" alt="" class="img-fluid">
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-xs-30">
+            <div class="why-choose-img">
+              <div class="why-choose-img-caption">
+                <span>3600 Projects are completed</span>
+              </div>
+              <img src="assets/img/why-choose-2.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+ -->
 
-                    </form>
+        <!-- 这是接下来亟待开发的，首页界面基本上已经完成了1/2 -->
+        <!-- <div class="col-lg-5 offset-lg-1">
+            <div class="why-choose-content">
+              <span class="section-intro">Why Choose</span>
+              <h2 class="section-title">Benefits of choosing
+                our agency</h2>
+              <div class="why-choose-details mb-60">
+                <div class="mb-60">There are many variations of passages of Lorem Ipsum available, but the majority have
+                  suffered
+                  alteration in some form.</div>
+                <div class="list-item">
+                  <ul>
+                    <li><span class="list-icon"><i class="flaticon-check"></i></span> Refresing to get such a
+                      personal touch.</li>
+                    <li><span class="list-icon"><i class="flaticon-check"></i></span> Duis aute irure dolor in
+                      reprehenderit in voluptate.</li>
+                    <li><span class="list-icon"><i class="flaticon-check"></i></span> Velit esse cillum dolore eu
+                      fugiat nulla pariatur.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="circle-counter-block mb-60">
+                <div class="row">
+                  <div class="col-md-6 mb-xs-30">
+                    <div class="d-flex align-items-center">
+                      <div class="circle-outer">
+                        <input type="text" class="circle-box" data-fgColor="#558ee4" data-bgColor="#fff"
+                          data-width="110" data-height="110" data-linecap="normal" value="90" data-thickness=".050">
+                        <div class="counter-box"><span class="counter-text" data-stop="90"
+                            data-speed="2500"></span><span class="counter-sign">%</span></div>
+                      </div>
+                      <div class="count-title">Affordable
+                        Cost</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex align-items-center">
+                      <div class="circle-outer">
+                        <input type="text" class="circle-box" data-fgColor="#558ee4" data-bgColor="#fff"
+                          data-width="110" data-height="110" data-linecap="normal" value="50" data-thickness=".050">
+                        <div class="counter-box"><span class="counter-text" data-stop="50"
+                            data-speed="2500"></span><span class="counter-sign">%</span></div>
+                      </div>
+                      <div class="count-title">Quality of
+                        Work</div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+        <!-- <div class="cta-small">
+                <div class="d-sm-flex align-items-center">
+                  <div class="cta-content">
+                    <div class="cta-small-title">Have any question feel free
+                      to contact with our team</div>
+                    <div class="cta-phone">92 888 666 0000</div>
+                  </div>
+                  <div class="cta-small-btn">
+                    <a href="#" class="theme-btn btn-sm">Free Estimate</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+        <div class="testimonials-section" data-background="assets/img/testimonials-bg.png">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <span class="section-intro">团队简介</span>
+                  <h2 class="section-title">优秀的团队成员</h2>
+                </div>
+                <div class="testimonials-slider swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="testimonial-style-1">
+                        <div class="testimonial-meta">
+                          <div class="d-flex align-items-center">
+                            <div class="tu-photo">
+                              <img src="assets/img/member_infor/lee.jpg" alt="" class="img-fluid rounded-circle">
+                              <br><br>
+                            </div>
+                            <div class="tu-meta">
+                              <div class="tu-name">李卓</div>
+                              <div class="tu-role">职务</div>
 
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-primary btn-md">Send</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          重庆交通大学通信工程专业本科在读，专业排名第一，曾获得国家奖学金、重庆市三好学生等荣誉称号；
+                          获得全国大学生数模竞赛重庆二等奖、美国大学生数学建模比赛Honrable Mention、全国大学生数学竞赛一等奖等竞赛奖项；参与并完成一项市级立项
+                          、主持一项大学生创新创业项目等。
+                        </div>
+                        <div class="testi-circle">
+                        </div>
+                      </div>
                     </div>
 
-                </div>
-                <!-- Grid column -->
+                    <div class="swiper-slide">
+                      <div class="testimonial-style-1">
+                        <div class="testimonial-meta">
+                          <div class="d-flex align-items-center">
+                            <div class="tu-photo">
+                              <img src="assets/img/member_infor/xia.jpg" alt="" class="img-fluid rounded-circle">
+                              <br><br>
+                            </div>
+                            <div class="tu-meta">
+                              <div class="tu-name">夏爽</div>
+                              <div class="tu-role">职务</div>
 
-                <!-- Grid column -->
-                <div class="col-md-3 text-center">
-                    <ul class="list-unstyled mb-0">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-2x indigo-text"></i>
-                            <p>ChongQing, NanAn, China</p>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone fa-2x mt-4 indigo-text"></i>
-                            <p>+ 01 234 567 89</p>
-                        </li>
-                        <li>
-                            <i class="fas fa-envelope fa-2x mt-4 indigo-text"></i>
-                            <p class="mb-0">contact@example.com</p>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Grid column -->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          重庆交通大学应用化学专业本科在读，专业排名前三，多次荣获各项荣誉和学科竞赛奖励。
+                          担任队长多次参加数学建模竞赛并负责撰写论文、绘制图表、排版等相关工作。
+                          致力于科研工作，曾作为第四作者发表一篇SCI论文。
+                        </div>
+                        <div class="testi-circle">
+                        </div>
+                      </div>
+                    </div>
 
+                    <div class="swiper-slide">
+                      <div class="testimonial-style-1">
+                        <div class="testimonial-meta">
+                          <div class="d-flex align-items-center">
+                            <div class="tu-photo">
+                              <img src="assets/img/member_infor/cai.jpg" alt="" class="img-fluid rounded-circle">
+                              <br><br>
+                            </div>
+                            <div class="tu-meta">
+                              <div class="tu-name">蔡欣雨</div>
+                              <div class="tu-role">职务</div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          重庆交通大学国际经济与贸易专业本科在读，专业排名前十。
+                          正在学习ACCA（国际注册会计师）并担任班长，且已经通过六门考试。
+                          曾经参加过JHC大赛、三创赛、市场调研大赛、互联网➕等比赛。
+                          认真负责、任劳任怨，在本项目中主要负责做财务报表等财务数据分析。
+                        </div>
+                        <div class="testi-circle">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="testimonial-style-1">
+                        <div class="testimonial-meta">
+                          <div class="d-flex align-items-center">
+                            <div class="tu-photo">
+                              <img src="assets/img/member_infor/zhong.jpg" alt="" class="img-fluid rounded-circle">
+                              <br><br>
+                            </div>
+                            <div class="tu-meta">
+                              <div class="tu-name">钟志强</div>
+                              <div class="tu-role">职务</div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          重庆交通大学通信工程专业本科在读，前三学期电信类综合素质排名前十，曾获优秀共青团员。担任环境与资源保护协会外联部部长。
+                          参加了大学生创新创业训练项目，全国大学生智能车竞赛等学科竞赛。
+                          具有较强的理科思维和理科基础，善于学习，具有较强的组织能力，对待分配的工作认真。
+                        </div>
+                        <div class="testi-circle">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="testimonial-style-1">
+                        <div class="testimonial-meta">
+                          <div class="d-flex align-items-center">
+                            <div class="tu-photo">
+                              <img src="assets/img/member_infor/guo.jpg" alt="" class="img-fluid rounded-circle">
+                              <br><br>
+                            </div>
+                            <div class="tu-meta">
+                              <div class="tu-name">郭峰</div>
+                              <div class="tu-role">职务</div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          重庆交通大学通信工程专业本科在读。
+                          积极参与学科竞赛，曾获得蓝桥杯程序设计比赛省级二等奖，大唐杯省级二等奖及其他学科竞赛奖；
+                          具有一定的编程能力，擅长C/C++、Java、Python语言及Web前端开发语言；
+                          能够使用SQL Server、MATLAB、Android Studio等软件，对PS技术及3D建模有一定的基础。
+                        </div>
+                        <div class="testi-circle">
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <div class="testimonial-style-1">
+                        <div class="testimonial-meta">
+                          <div class="d-flex align-items-center">
+                            <div class="tu-photo">
+                              <img src="assets/img/member_infor/tan.jpg" alt="" class="img-fluid rounded-circle">
+                              <br><br>
+                            </div>
+                            <div class="tu-meta">
+                              <div class="tu-name">谭思嘉</div>
+                              <div class="tu-role">职务</div>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="testimonial-content">
+                          重庆交通大学市场营销专业本科在读，专业排名第五，
+                          在校期间，参加过多次市场营销类的比赛，也获得过娃哈哈营销大赛校级二等奖和市场营销大赛的市级一等奖。
+                          熟练运用办公软件erp操作等，掌握基础的市场营销学知识，工作主动性高，做事认真负责，有吃苦耐劳的精神。
+                        </div>
+                        <div class="testi-circle">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <!-- Grid row -->
-
+          </div>
         </div>
-
-    </section>
-    <!--Section: contact-->
-    </main>
-
-    <!-- Footer -->
-    <footer class="page-footer font-small pt-4">
-
-      <!-- Footer Elements -->
-      <div class="container">
-
-          <!-- Social buttons -->
-          <ul class="list-unstyled list-inline text-center">
-              <li class="list-inline-item">
-                  <a class="btn-floating btn-primary mx-1">
-                      <i class="fab fa-facebook-f"> </i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a class="btn-floating btn-tw mx-1">
-                      <i class="fab fa-twitter"> </i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a class="btn-floating btn-gplus mx-1">
-                      <i class="fab fa-google-plus-g"> </i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a class="btn-floating btn-li mx-1">
-                      <i class="fab fa-linkedin-in"> </i>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                  <a class="btn-floating btn-dribbble mx-1">
-                      <i class="fab fa-dribbble"> </i>
-                  </a>
-              </li>
-          </ul>
-          <!-- Social buttons -->
-
+        <!-- <div class="cta-bar">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-8 mb-xs-30">
+                <h2 class="section-title white-text mb-0">The Quality and affordable
+                  Digital Services</h2>
+              </div>
+              <div class="col-md-4">
+                <a href="#" class="theme-btn black-btn">Discover more</a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <div class="blog-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="text-center">
+                  <span class="section-intro">摘自公司博客</span>
+                  <h2 class="section-title">最近新闻</h2>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 col-lg-4">
+                    <div class="blog-block">
+                      <div class="post-thumb-block">
+                        <img src="assets/img/show_1.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="post-content-block">
+                        <div class="post-date">
+                          1th Dec
+                        </div>
+                        <div class="blog-block-inner">
+                          <div class="post-meta-block">
+                            <div class="d-flex justify-content-center">
+                              <span class="post-author"><i class="flaticon-user"></i> 公司</span>
+                              <span class="post-comments"><i class="flaticon-chat"></i> 3 评论</span>
+                            </div>
+                          </div>
+                          <h3 class="post-title-block"><a href="single-blog.html">数据大屏功能更新</a></h3>
+                          <div class="post-excerpt-block">
+                            数据大屏中新增院内游客人数统计功能
+                          </div>
+                          <div class="post-read-more">
+                            <a href="#">了解更多</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="blog-block">
+                      <div class="post-thumb-block">
+                        <img src="assets/img/show_1.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="post-content-block">
+                        <div class="post-date">
+                          2th Dec
+                        </div>
+                        <div class="blog-block-inner">
+                          <div class="post-meta-block">
+                            <div class="d-flex justify-content-center">
+                              <span class="post-author"><i class="flaticon-user"></i>公司</span>
+                              <span class="post-comments"><i class="flaticon-chat"></i> 2 评论</span>
+                            </div>
+                          </div>
+                          <h3 class="post-title-block"><a href="single-blog.html">数据预测功能正在测试</a></h3>
+                          <div class="post-excerpt-block">
+                            公司技术部门正在利用神经网络等方法去预测数据，有望今年下半年投入使用
+                          </div>
+                          <div class="post-read-more">
+                            <a href="#">了解更多</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-lg-4">
+                    <div class="blog-block">
+                      <div class="post-thumb-block">
+                        <img src="assets/img/show_1.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="post-content-block">
+                        <div class="post-date">
+                          3th Dec
+                        </div>
+                        <div class="blog-block-inner">
+                          <div class="post-meta-block">
+                            <div class="d-flex justify-content-center">
+                              <span class="post-author"><i class="flaticon-user"></i> 公司</span>
+                              <span class="post-comments"><i class="flaticon-chat"></i> 2 评论</span>
+                            </div>
+                          </div>
+                          <h3 class="post-title-block"><a href="single-blog.html">与**设备公司取得合作</a></h3>
+                          <div class="post-excerpt-block">
+                            我公司与**公司打成合作，**公司拟为我公司提供硬件上的基础设备支持
+                          </div>
+                          <div class="post-read-more">
+                            <a href="#">了解更多</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="partners-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="partners-carousel swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/partner-logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/partner-logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/partner-logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/partner-logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/partner-logo.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/partner-logo.png" alt="" class="img-fluid">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+        <footer class="site-footer-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 mb-xs-60 mb-md-60">
+                <div class="footer-logo">
+                  <p>公司logo？</p>
+                  <!-- <img src="assets/img/footer-logo.png" alt="" class="img-fluid"> -->
+                </div>
+                <div class="footer-about">
+                  在这里我们提供了具体链接。公司新闻的快速入口在右侧。联系方式为右侧。
+                </div>
+                <a href="#" class="theme-btn btn-sm">了解更多</a>
+              </div>
+              <div class="col-lg-3 mb-xs-60 mb-md-60">
+                <h3 class="footer-widget-title">Links</h3>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="footer-menu">
+                      <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Latest Projects</a></li>
+                        <li><a href="#">Pricing & Plans</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="footer-menu">
+                      <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 mb-xs-60 mb-md-60">
+                <h3 class="footer-widget-title">News</h3>
+                <div class="latest-post-list">
+                  <div class="lp-item">
+                    <div class="d-flex">
+                      <div class="lp-thumb">
+                        <img src="assets/img/post-sm-1.png" alt="" class="img-fluid">
+                      </div>
+                      <div class="lp-details">
+                        <span class="lp-date">20 Aug, 2020</span>
+                        <h3 class="lp-title"><a href="#">The best digital services for the startups</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="lp-item">
+                    <div class="d-flex">
+                      <div class="lp-thumb">
+                        <img src="assets/img/post-sm-2.jpg" alt="" class="img-fluid">
+                      </div>
+                      <div class="lp-details">
+                        <span class="lp-date">20 Aug, 2020</span>
+                        <h3 class="lp-title"><a href="#">The best digital services for the startups</a></h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="footer-widget-title">Contact</h3>
+                <div class="contact-widget">
+                  <ul>
+                    <li>
+                      <div class="contact-info">
+                        <span class="contact-icon"><i class="flaticon-telephone"></i></span> <a href="#">666 888
+                          0000</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="contact-info">
+                        <span class="contact-icon"><i class="flaticon-envelope"></i></span> <a
+                          href="#">？？？@mail.com</a>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="contact-info">
+                        <span class="contact-icon"><i class="flaticon-maps-and-flags"></i></span> 
+                        重庆市南岸区海棠溪街道重庆交通大学
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row align-items-center justify-content-between">
+                <div class="col-md-6">
+                  <span class="copyright">© Copyright 2020 by microtheme.com</span>
+                </div>
+                <div class="col-md-6">
+                  <div class="footer-social-media">
+                    <ul>
+                      <li><a href="#"><i class="mti-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="mti-twitter"></i></a></li>
+                      <li><a href="#"><i class="mti-instagram"></i></a></li>
+                      <li><a href="#"><i class="mti-pinterest-p"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="back-to-top">
+          <i class="flaticon-up-arrow"></i>
+        </div>
       </div>
-      <!-- Footer Elements -->
-
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2018 Copyright:
-          <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-      </div>
-      <!-- Copyright -->
-
-  </footer>
-  <!-- Footer -->
-
-    <!-- jQuery -->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
-    <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
-    <!-- Your custom scripts (optional) -->
-    <script type="text/javascript"></script>
-
+      <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+      <script src="assets/js/vendor/modernizr-3.11.2.min.js"></script>
+      <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/vendor/swiper-bundle.min.js"></script>
+      <script src="assets/js/vendor/jquery.appear.js"></script>
+      <script src="assets/js/vendor/count-to.js"></script>
+      <script src="assets/js/vendor/rellax.min.js"></script>
+      <script src="assets/js/vendor/jquery.knob.min.js"></script>
+      <script src="assets/js/vendor/mixitup.min.js"></script>
+      <script src="assets/js/custom.js"></script>
   </body>
 
 </html>
