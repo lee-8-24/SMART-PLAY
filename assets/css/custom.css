@@ -2182,6 +2182,7 @@ a:hover {
   -o-transform: translateY(-180px);
   transform: translateY(-180px);
 }
+
 .testimonial-style-1:hover::before,
 .swiper-slide-active .testimonial-style-1::before {
   opacity: 1;
@@ -2203,8 +2204,10 @@ a:hover {
 }
 .testimonial-style-1:hover,
 .swiper-slide-active>.testimonial-style-1 {
-  background: #538de4;
-  color: #e0ecff;
+  /* background: url(../img/testimonials-bg.png);
+   */
+   background:#538de4 ;
+   color:white;
 }
 .tu-photo {
   max-width: 70px;
