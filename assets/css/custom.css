@@ -828,9 +828,9 @@ ul.header-navigation-menu>li.megamenu-parent:hover .megamenu-wrap-inner {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  -moz-filter: grayscale(100%); */
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
@@ -879,9 +879,9 @@ ul.header-navigation-menu>li.megamenu-parent:hover .megamenu-wrap-inner {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  -webkit-filter: grayscale(0);
+  /* -webkit-filter: grayscale(0);
   -ms-filter: grayscale(0);
-  -moz-filter: grayscale(0);
+  -moz-filter: grayscale(0); */
 }
 .slide-intro {
   font-size: 20px;
@@ -2505,9 +2505,9 @@ a:hover {
   padding: 100px 0;
 }
 .partners-carousel img {
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
+  -moz-filter: grayscale(100%); */
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
@@ -2516,9 +2516,9 @@ a:hover {
   opacity: 0.5;
 }
 .partners-carousel img:hover {
-  -webkit-filter: grayscale(0%);
+  /* -webkit-filter: grayscale(0%);
   -ms-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
+  -moz-filter: grayscale(0%); */
   opacity: 1;
 }
 .partners-carousel .swiper-slide {
@@ -4006,7 +4006,7 @@ body.st-prevent-scroll {
   padding: 3px 10px 3px 35px;
   color: #8a1f11;
   border: 1px solid #FBC2C4;
-  -webkit-border-radius: 5px;
+  /* -webkit-border-radius: 5px; */
 }
 .loader {
   padding: 0 10px;
