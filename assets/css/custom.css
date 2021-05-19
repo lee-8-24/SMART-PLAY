@@ -4385,7 +4385,7 @@ body.st-prevent-scroll {
 .about-image-4,
 .member-photo,
 .teammember-photo {
-  background: #031026;
+  /* background: #031026; */
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
